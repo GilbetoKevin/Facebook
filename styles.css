@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+}
+
+/* Barra de menu */
+.menu {
+  display: flex;
+  align-items: center;
+  height: 100;
+  background: #242526;
+  position: sticky;
+  top: 0; 
+}
+
+.menu__left {
+  gap: 10px;
+  display: flex;
+  text-align: left;
+  width: 33.3%;
+
+}
+
+.menu__left__logo {
+  height: 25px;
+
+}
+
+.menu__left__search {}
+
+.menu__center {
+  width: 33.3%;
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente en el contenedor */
+  align-items: center; /* Centra los botones verticalmente en el contenedor */
+  gap: 10px; /* Espacio entre los botones */
+}
+.menu__center__button {
+  display: flex;
+  width: 70px;
+  align-items: center; /* Centra el contenido dentro del botón */
+  justify-content: center; /* Centra el contenido dentro del botón */
+  padding: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.menu__center__button svg {
+  width: 24px; /* Ajusta el tamaño del ícono según sea necesario */
+  height: 24px;
+  fill: #B0B3B8; /* Color del ícono */
+}
+
+
+
+
+
+.menu__right {
+  display: flex;
+  width: 33.3%;
+  text-align: right;
+  justify-content: right; 
+}
+.menu__right__button {
+  display: flex;
+  align-items: center; /* Centra el contenido dentro del botón */
+  justify-content: center; /* Centra el contenido dentro del botón */
+  padding: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+
+.menu__right__button__circle {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3A3B3C;
+  align-items: center; /* Centra el ícono verticalmente */
+  justify-content: center; /* Centra el ícono horizontalmente */
+}
+
+.menu__right__button__circle__item--home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #E4E6EB /* Color del ícono */
+}
+
+.cotainer{
+  display: flex;
+  height: 1000px;
+  background-color: #18191A;
+}
+
+.cotainer__left{
+  width: 25%;
+  position: sticky;
+  top: 10px; 
+
+
+}
+.cotainer__center{
+  width: 50%;
+  padding: 14px;
+  scrollbar-width: auto;
+}
+.cotainer__center__box{
+  border-radius: 10px; /* ajusta el valor según el redondeo que desees */
+  background-color: #242526; /* color de fondo opcional */
+  padding: 20px;
+  height: 100px;
+  margin: 20px;
+}
+.cotainer__right{
+  width: 25%;
+
+}
